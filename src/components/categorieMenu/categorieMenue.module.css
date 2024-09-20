@@ -1,0 +1,160 @@
+.explore_menu {
+  padding: 0 0 3rem 0;
+
+}
+
+.Tittlecategorie {}
+
+.text {
+  width: 60%;
+}
+
+.categorie_list {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-bottom: 4px solid #e4e4e4;
+}
+
+.categorie_list::-webkit-scrollbar {
+  display: none;
+}
+
+.categorie_sary_text {
+
+  padding: 0 0 3rem 0;
+  cursor: pointer;
+  width: 14%;
+  margin-left: 2rem;
+  flex: 0 0 auto;
+}
+
+.sarycat {
+
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.sarycat img {
+  padding: 2.5rem;
+  width: 100%;
+
+}
+
+.active {
+  border-radius: 50%;
+  border: solid rgb(244, 138, 0) 5px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.non_active {
+  cursor: pointer;
+}
+
+.sarycat:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+/*telephone */
+
+@media screen and (max-width: 428px) {
+  .text {
+    width: auto;
+  }
+
+  .sarycat img {
+    padding: 5px;
+    max-width: 200%;
+  }
+
+  .sarycat {
+    padding: 5px;
+    max-width: 500%;
+    width: 275%;
+    border-radius: 50%;
+  }
+  .namee{
+    display: inline-flex;
+    font-size: 13px;
+    width: 5rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+  .categorie_sary_text {
+    margin: 0 2.7rem;
+  }
+
+}
+
+/* autre phone et autre tablette */
+
+
+@media screen and (max-width: 766px) and (min-width: 428px) {
+  .text {
+    width: auto;
+  }
+
+  .sarycat img {
+    padding: 5px;
+    max-width: 200%;
+  }
+
+  .categorie_sary_text {
+    margin: 0 4.7rem;
+  }
+
+  .sarycat {
+    padding: 5px;
+    max-width: 500%;
+    width: 175%;
+    border-radius: 50%;
+  }
+
+  .categorie_list {
+    overflow-x: auto;
+    /* Défilement horizontal automatique sur les écrans plus petits */
+  }
+
+
+}
+
+
+/*tableteeee */
+
+@media screen and (max-width: 1089px) and (min-width: 766px) {
+  .categorie_sary_text {
+    margin: 10rem ;
+  }
+  .text {
+    width: auto;
+  }
+
+  .sarycat img {
+    padding: 5px;
+    max-width: 200%;
+  }
+
+  .categorie_sary_text {
+    margin: 0 8rem;
+  }
+
+  .sarycat {
+    padding: 10px;
+    max-width: 150%;
+    width: 500%;
+    border-radius: 50%;
+  }
+
+  .categorie_list {
+    overflow-x: auto;
+   
+  }
+
+}

@@ -1,0 +1,18 @@
+    .Boxnotif{
+        position: fixed;
+        bottom: 5%;
+        left: 5%;
+    }
+
+    .send{
+        background-color: rgb(15 23 42);
+        transition: 1s;
+        color: white;
+    }
+    
+    .send:hover{
+        background-color: #ffa500de;
+      color: white;
+        transition: 1s;
+        transform: scale(1.01);
+    }

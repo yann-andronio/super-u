@@ -1,0 +1,78 @@
+main{
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.downloadbox {
+    margin: 8rem 0;
+}
+.rechercheresult{
+    padding:  0 0 5rem 0;
+}
+
+
+.footers {
+    margin: 8rem 0;
+}
+
+
+/* const [catname, setCatname] = useState('');
+const [categorieActive, setCategorieActive] = useState("Tout");
+const [filteredCarddatas, setFilteredCarddatas] = useState(Carddata);
+const [searchInput, setSearchInput] = useState('');
+const [searchResults, setSearchResults] = useState([]);
+const { totalItems, addItem } = useCart();
+
+const [modalIsOpen, setModalIsOpen] = useState(false);
+
+const handleModalSubmit = () => {
+    setModalIsOpen(true);
+
+    setTimeout(() => {
+        setModalIsOpen(false);
+    }, 2200);
+};
+
+useEffect(() => {
+    const filteredData = Carddata.filter(item =>
+        item.name.toLowerCase().includes(searchInput.toLowerCase()) ||
+        item.categorie.toString().includes(searchInput)
+    );
+    setSearchResults(filteredData);
+}, [searchInput]);
+
+//oany barre de recherche
+
+const handleSearchInput = (e) => {
+
+    setSearchInput(e.target.value);
+    const element = document.getElementById('produitderecherche');
+    if (element) {
+        //manantso fonction  scrollIntoView mampy scrool
+        element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest'
+        });
+    }
+};
+
+const filterByCategorie = (categorie) => {
+    const filteredCardItems = Carddata.filter(item => item.categorie === categorie);
+    setCategorieActive(categorie === "Tout" ? "Tout" : categorie);
+    setFilteredCarddatas(categorie === "Tout" ? Carddata : filteredCardItems);
+};
+
+const handleCategorieClick = (itemCategorie, itemname) => {
+    const newCategorie = categorieActive === itemCategorie ? "Tout" : itemCategorie;
+    setCategorieActive(newCategorie);
+    filterByCategorie(newCategorie);
+    setCatname(itemname);
+}; */
+
+.Boxnotif{
+    position: fixed;
+    z-index: 10000;
+    bottom: 5%;
+    right: 5%;
+}
+

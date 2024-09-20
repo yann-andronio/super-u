@@ -1,0 +1,96 @@
+
+
+.parents{
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+
+
+.separation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.separation::before ,  .separation::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 0 1rem;
+}
+
+.facture{
+    /* background-color: red; */
+}
+
+.acheter{
+    background-color: rgb(15 23 42);
+    transition: 1s;
+    color: white;
+}
+
+.acheter:hover{
+    background-color: #ffa500de;
+  color: white;
+    transition: 1s;
+    transform: scale(1.01);
+}
+
+.Boxnotif{
+    position: fixed;
+    z-index: 10000;
+    bottom: 6%;
+    right: 3%;
+}
+/* const handleSubmit = (event) => {
+    event.preventDefault();
+    
+    let validationErrors = {};
+    
+    
+    // /^[0-9]{16}$/
+    const cardNumberPattern = /^[0-9]{16}$/;
+    if (!cardNumberPattern.test(inputs.numbertcart)) {
+      validationErrors.numbertcart = "Le numéro de carte doit être composé de 16 chiffres.";
+    }
+
+  //  /^[0-9]{4}$/
+    const codePattern = /^[0-9]{4}$/;
+    if (!codePattern.test(inputs.code)) {
+      validationErrors.code = "Le code de la carte doit être composé de 4 chiffres.";
+    }
+
+    if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+      return;
+    }
+
+    // Raha mipa jiaby
+    //reinitialisation des erreur stocké eto
+    setErrors({});
+    setPayementcart(true);
+
+    setTimeout(() => {
+      setPayementcart(false);
+      emptyCart();
+    }, 3000);
+
+    setTimeout(() => {
+    
+      navigate("/");
+    }, 4000);
+  }; */
+  /* const {
+  /* const {
+    totalUniqueItems,
+    totalItems,
+    cartTotal,
+    emptyCart,
+  } = useCart(); */
+
+/* 
+const cardNumberPattern = /^[0-9]{16}$/; */

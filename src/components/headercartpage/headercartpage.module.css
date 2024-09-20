@@ -1,0 +1,89 @@
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+ }
+ 
+ 
+ 
+  .active {
+     border-bottom: orange solid;
+     text-decoration: none;
+     list-style: none;
+     color: orange;
+     font-size: 1.2rem;
+ }
+
+ .Non_active {
+     text-decoration: none;
+     list-style: none;
+     color: white;
+     font-size: 1.2rem;
+ } 
+ .Non_active:hover , .active:hover{
+    color: #e2970cf5;
+ }
+
+
+ .logo h1 {
+    font-weight: 700;
+     color: #ffa500de;
+     font-size: 2.5rem;
+
+ }
+
+
+ .cart_icon {
+     color:white;
+     font-size: 2rem;
+ }
+
+ .user_icon {
+    position: relative;
+     color: white;
+     font-size: 2rem;
+ }
+ .notification{
+    padding: 1px;
+    position: absolute;
+    background-color: #919191cc;
+    min-height: 20px;
+    min-width: 26px;
+    top: 2px;
+    right: 48px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.5s;
+ }
+
+.link{
+    /* border-bottom: orange solid; */
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.link:hover{
+    color: orange;
+    transition: 0.5s
+}
+
+
+.cart{
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.cart:hover .cart_icon{
+    color: orange;
+    transition: 0.5s;
+}
+.cart:hover .notification{
+    
+    background-color: orange;
+    color: black;
+    transition: 0.5s;
+}

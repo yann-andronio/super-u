@@ -1,0 +1,124 @@
+.card_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 20px 5rem 0 0;
+}
+
+.card_box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card_img{
+    position: relative;
+    display: flex;
+    padding: 0 0 1rem 0;
+    justify-content: center;
+}
+
+.card_img img {
+    width: 100%;
+    height: auto;
+  
+}
+.add {
+    position: absolute;
+    font-size: 2rem;
+    border-radius: 50%;
+    color: rgb(247, 247, 247);
+    background-color: blue;
+    right: 10px;
+    bottom: 10px;
+    padding: 4px;
+}
+.commande{
+    left: 10px;
+    bottom: 4px;
+    position: absolute;
+    display: flex;
+    background-color: #ffbb00;
+    padding: 0px 5px;
+    border-radius: 50px;
+    width: 30%;
+    gap: 10px;
+}
+.plus{
+    font-size: 2rem;
+    border-radius: 50%;
+    color: rgb(247, 247, 247);
+    background-color:#46ff00ab
+}
+.moins{
+    font-size: 2rem;
+    border-radius: 50%;
+    color: rgb(247, 247, 247);
+    background-color:#ff000096
+}
+
+.card_text {
+    padding: 16px;
+  
+}
+.name{
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card_description {
+    padding: 16px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+   
+}
+
+.ajout{
+    color: white;
+    transition: 1s;
+}
+.ajout:hover{
+    text-shadow: 0 0 5px #ff9e00;
+    color: orange;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+
+
+
+@media screen and (max-width:428px) {
+    .card_list {  
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .add {
+        font-size: 1.5rem;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:500px) {
+    .card_list {  
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*tableteeee */
+
+@media screen and (max-width: 1089px) and (min-width: 766px) {
+    .card_list {  
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/*mini ordi */
+@media screen and (max-width: 1380px) and (min-width: 1089px) {
+    .card_list {  
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

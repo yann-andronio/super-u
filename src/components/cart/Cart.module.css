@@ -1,0 +1,120 @@
+.Boxpanier {
+    background-color: whitesmoke;
+}
+
+.acheter {
+    background-color: rgb(15 23 42);
+    transition: 1s;
+    color: white;
+}
+
+.acheter:hover {
+    background-color: #ffa500de;
+    color: white;
+    transition: 1s;
+    transform: scale(1.01);
+}
+
+.supall {
+    background-color: rgb(15 23 42);
+    transition: 1s;
+    color: white;
+}
+
+.supall:hover {
+    background-color: #dc3545;
+    transition: 1s;
+    color: white;
+}
+
+.Box2 {
+    width: 35%;
+}
+
+.Box1 {
+    width: 100%;
+}
+
+
+@media screen and (max-width:428px) {
+    .Boxpanier {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Boxparents {
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Box2 {
+        width: 100%;
+        padding: 0 0 2rem 0;
+    }
+
+    .Box1_child {
+        color: red;
+        width: 100%;
+    }
+    .Box1_child .saryy {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+  
+    .totalsoratra , .totalprix  , .deleteone ,  .Box1_child .nom {
+        display: none;
+    }
+ 
+
+    
+
+
+}
+
+@media screen and (max-width:768px) and (min-width:500px) {
+    .Boxpanier {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Boxparents {
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .Box2 {
+        width: 100%;
+
+    }
+}
+
+/*tableteeee */
+
+@media screen and (max-width: 1089px) and (min-width: 766px) {
+    .Boxpanier {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Boxparents {
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Box2 {
+        width: 100%;
+    }
+}
+
+/*mini ordi */
+@media screen and (max-width: 1380px) and (min-width: 1089px) {}
