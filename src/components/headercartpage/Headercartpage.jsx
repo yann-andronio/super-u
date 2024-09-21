@@ -3,7 +3,6 @@ import { FaShoppingCart } from 'react-icons/fa';
 import { FaUser } from "react-icons/fa";
 import s from "./headercartpage.module.css";
 import { useCart } from 'react-use-cart';
-import { Link as ScrollLink } from 'react-scroll';
 import { Link, NavLink } from 'react-router-dom';
 
 export default function Headercartpage() {

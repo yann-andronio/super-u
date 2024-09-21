@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import s from "./footers.module.css";
 import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedin, FaGithub, FaPinterestP, FaTiktok, FaMapMarkerAlt } from 'react-icons/fa';
-import { AiOutlineHome } from 'react-icons/ai';
 import { HiMail } from 'react-icons/hi';
 import { ImPhone } from 'react-icons/im';
 import { BsFillChatDotsFill } from 'react-icons/bs';

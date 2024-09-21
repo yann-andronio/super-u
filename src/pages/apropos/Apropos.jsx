@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import { FaTools } from 'react-icons/fa';
-import s from "./apropos.module.css";
 import Headercartpage from '../../components/headercartpage/Headercartpage';
 
 export default function Apropos() {

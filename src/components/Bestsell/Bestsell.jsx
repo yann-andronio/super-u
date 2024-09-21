@@ -5,7 +5,6 @@ import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import Carddata from '../../data/Carddata'
 import { HiOutlineShoppingCart } from "react-icons/hi2";
-import { useCart } from 'react-use-cart';
 
 export default function Bestsell({ handleModalSubmit, addItem }) {
 

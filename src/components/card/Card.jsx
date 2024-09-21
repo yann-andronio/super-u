@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import s from "./card.module.css";
-import { useCart } from 'react-use-cart';
 import { Link } from 'react-router-dom';
 import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { motion } from 'framer-motion';
