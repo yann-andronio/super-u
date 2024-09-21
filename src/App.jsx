@@ -1,11 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { CartProvider } from 'react-use-cart';
 import "./tailwind.css";
-
-
-
 import Routers from './routers/Routers';
-import Home from './pages/home/Home';
 
 
 
